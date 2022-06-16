@@ -2067,7 +2067,7 @@
   "resolved" "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
   "version" "3.0.0"
 
-"enhanced-resolve@^5.9.3":
+"enhanced-resolve@^5.7.0", "enhanced-resolve@^5.9.3":
   "integrity" "sha512-Bq9VSor+kjvW3f9/MiiR4eE3XYgOl7/rS8lnSxbRbF3kS0B2r+Y9w5krBWxZgDxASVZbdYrn5wT4j/Wb0J9qow=="
   "resolved" "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.9.3.tgz"
   "version" "5.9.3"
@@ -3166,6 +3166,14 @@
     "terser-webpack-plugin" "^5.3.3"
     "workbox-webpack-plugin" "^6.5.3"
     "workbox-window" "^6.5.3"
+
+"next-transpile-modules@^9.0.0":
+  "integrity" "sha512-VCNFOazIAnXn1hvgYYSTYMnoWgKgwlYh4lm1pKbSfiB3kj5ZYLcKVhfh3jkPOg1cnd9DP+pte9yCUocdPEUBTQ=="
+  "resolved" "https://registry.npmjs.org/next-transpile-modules/-/next-transpile-modules-9.0.0.tgz"
+  "version" "9.0.0"
+  dependencies:
+    "enhanced-resolve" "^5.7.0"
+    "escalade" "^3.1.1"
 
 "next@>=10.2.0", "next@>=9.0.0", "next@12.1.6":
   "integrity" "sha512-cebwKxL3/DhNKfg9tPZDQmbRKjueqykHHbgaoG4VBRH3AHQJ2HO0dbKFiS1hPhe1/qgc2d/hFeadsbPicmLD+A=="
